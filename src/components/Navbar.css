@@ -1,0 +1,44 @@
+.navbar{
+    max-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 4PX RGBA(0, 0, 0, 0.1);
+}
+
+
+.navbar-logo img{
+    height: 30 px;
+    max-width: auto;
+}
+
+.navbar-links{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-grow: 1;
+   
+}
+
+.navbar-links li{
+    margin: 0 15px;
+    
+}
+.navbar-links a{
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+.navbar-auth .connect-button{
+    background-color: #4CAF50;
+    color: #f5f5f5;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.navbar-auth .connect-button:hover{
+    background-color: #37474F;
+}
